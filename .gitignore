@@ -1,0 +1,81 @@
+# WordPress specific
+/.htaccess
+/wp-config.php
+/wp-content/uploads/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/
+/wp-content/backups/
+/sitemap.xml
+/sitemap.xml.gz
+/debug.log
+/error_log
+
+# WordPress core files and directories - if developing within a full WP installation
+# /wp-admin/
+# /wp-includes/
+# /wp-content/plugins/ # Uncomment if you only want to track THIS plugin
+# /wp-content/themes/ # Uncomment if you only want to track THIS plugin
+# /wp-content/mu-plugins/
+# /xmlrpc.php
+# /wp-*.php except for wp-content/plugins/your-plugin/wp-*.php
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+nbproject/
+.project
+.settings/
+*.tmproj
+*.buildpath
+*.project
+*.settings
+
+# Dependency Management
+/node_modules/
+/vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Build artifacts
+/build/
+/dist/
+*.zip
+*.tar.gz
+*.phar
+
+# Log files (general)
+*.log
+logs/
+
+# PHPCS/PHPCBF cache
+.phpcs.cache
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Sass cache
+.sass-cache/
+*.css.map
+
+# Local configuration files (if any)
+local-config.php
